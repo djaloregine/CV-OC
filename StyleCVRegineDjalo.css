@@ -1,0 +1,342 @@
+/* CVRegineDjalo */
+/* CV FFDE03 0336FF FF0266  #1f4874*/
+
+#page {
+    width: 100%;
+    height: auto;
+    font-family: verdana, arial, "century gothic";
+    overflow: hidden;
+    padding-left: 15px;
+    background-color: aliceblue;
+}
+
+.fas,
+.fa {
+    color: rgba(31, 72, 116, 1);
+}
+
+/* espace gauche */
+
+
+.col-12.col-md-3.espaceGauche {
+    background-color: rgba(31, 72, 116, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 2vh;
+}
+
+#intituleUn {
+    visibility: hidden;
+    height: 150px;
+}
+
+.photo img {
+    border-radius: 100%;
+    width: 80%;
+}
+
+.gaucheTitre {
+    background-image: url("photo/wax4.jpeg");
+    line-height: 2.7rem;
+    font-size: 1.50rem;
+    color: #FFDE03;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+h3 {
+    padding-top: 3%;
+    text-shadow: 2px 2px 2px black;
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+    h3 {
+        padding-top: 1%;
+    }
+}
+
+.contactText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.tel,
+.mail,
+.site,
+.link {
+    height: 3vh;
+    background-color: grey;
+    color: #f2f2f2;
+    width: 80%;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    margin-left: 15%;
+}
+
+.site.mx-auto,
+.link.mx-auto {
+    cursor: pointer;
+}
+
+.fab {
+    color: #f2f2f2;
+}
+
+#Apropos p {
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+.moi {
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#loisirs {
+    margin-top: 10vh;
+    margin-bottom: 0;
+}
+
+
+.loisirs {
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: -13%;
+    display: grid;
+    grid-template-columns: repeat(4, 0.2fr);
+    grid-auto-flow: row;
+    gap: 20px;
+
+}
+
+.loisir {
+    border: 3px solid rgba(31, 72, 116, 1);
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.loisirSwim {
+    padding: 14px 8px 12px 8px;
+}
+
+.loisirRun {
+    padding: 12px 18px 12px 18px;
+}
+
+
+/*espace droite */
+
+.col-12.col-md-9.espaceDroite {
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+#intituleDeux {
+    visibility: visible;
+}
+
+.intituleDeux {
+    padding-top: 7vh;
+    color: #0336FF;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+.intitule>span {
+    color: #0336FF;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.rdDeux {
+    color: rgba(31, 72, 116, 1);
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+#experience {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.exp,
+.form {
+    color: #0336FF;
+    font-weight: 900;
+}
+
+
+.ligneExp,
+.ligneForm {
+    padding-top: 5px;
+    height: 3px;
+    width: 95%;
+    background-image: url(photo/wax4.jpeg);
+}
+
+#exp {
+    margin-top: 30px;
+    width: 700px;
+}
+
+#exp>li {
+    position: relative;
+    list-style: none;
+}
+
+#postes,
+#formations {
+    margin-top: 50px;
+    padding-left: 15px;
+}
+
+.posteUn,
+.formationUn {
+    padding-top: 30px;
+}
+
+.poste {
+
+    list-style: none;
+}
+
+.dates {
+    background-color: #FFDE03;
+    border: 1px solid transparent;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.datesText {
+    text-align: center;
+}
+
+li>span {
+    color: #1f4874;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.activites {
+    text-align: justify;
+    margin-top: 5px;
+}
+
+.intitulePoste {
+    font-size: 1.25rem;
+    margin-top: 5px;
+}
+
+.formationUn {
+    margin-top: 25px;
+
+}
+
+.formation>li {
+    list-style: none;
+
+}
+
+#form {
+    width: 700px;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.lieu {
+    margin-top: 5px;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    #intituleUn {
+        visibility: visible;
+        text-align: center;
+    }
+
+    .intituleUn {
+        color: #0336FF;
+        font-weight: 900;
+        font-size: 2rem;
+    }
+
+    .intitule>span {
+        color: #0336FF;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+    .rdDeux {
+        color: rgba(31, 72, 116, 1);
+        font-size: 1rem;
+        font-weight: 900;
+    }
+
+    #intituleDeux {
+        visibility: hidden;
+    }
+
+    .photo img {
+        width: 70%;
+    }
+
+    #experience {
+        margin-top: -170px;
+    }
+
+    .col-12.col-md-9.espaceDroite {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .exp,
+    .form {
+        font-size: 1.5rem;
+    }
+
+    .espaceDroite--title {
+        text-align: center;
+    }
+
+    .activites {
+        text-align: center;
+    }
+
+    #formations,
+    #postes {
+        text-align: center;
+        margin-right: 20px;
+        margin-left: -15px;
+    }
+
+    .dates {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ligneExp,
+    .ligneForm {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1119px) {
+
+    .tel,
+    .mail,
+    .site {
+        font-size: 10px;
+        width: 100%;
+    }
+}
