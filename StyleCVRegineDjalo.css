@@ -27,7 +27,7 @@
     padding-top: 2vh;
 }
 
-#intituleUn {
+#headerUn {
     visibility: hidden;
     height: 150px;
 }
@@ -136,7 +136,7 @@ h3 {
     padding-top: 100px;
 }
 
-#intituleDeux {
+#headerDeux {
     visibility: visible;
 }
 
@@ -256,11 +256,28 @@ li>span {
     margin-top: 5px;
 }
 
+.mentions {
+    margin-top: 10vh;
+    margin-bottom: 0;
+}
+
+.mentions-titre {
+    color: #1f4874;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.mentions-contenu {
+    color: #1f4874;
+    font-size: 0.5rem;
+    font-weight: bold;
+}
+
 
 
 @media (min-width: 320px) and (max-width: 767px) {
 
-    #intituleUn {
+    #headerUn {
         visibility: visible;
         text-align: center;
     }
@@ -277,13 +294,13 @@ li>span {
         font-weight: 900;
     }
 
-    .rdDeux {
+    .rdUn {
         color: rgba(31, 72, 116, 1);
         font-size: 1rem;
         font-weight: 900;
     }
 
-    #intituleDeux {
+    #headerDeux {
         visibility: hidden;
     }
 
@@ -329,6 +346,23 @@ li>span {
     .ligneForm {
         width: 100%;
     }
+
+    .tel,
+    .mail,
+    .site {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .link {
+        padding-bottom: 20px;
+    }
+
+    .mentions {
+        text-align: center;
+
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 1119px) {
@@ -338,5 +372,9 @@ li>span {
     .site {
         font-size: 10px;
         width: 100%;
+    }
+
+    .mentions {
+        margin-top: 400px;
     }
 }
