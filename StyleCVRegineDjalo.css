@@ -4,26 +4,34 @@
 #page {
     width: 100%;
     height: auto;
-    font-family: verdana, arial, "century gothic";
+    font-family: Roboto, Verdana, Arial, "Open Sans";
     overflow: hidden;
-    padding-left: 15px;
-    background-color: blueviolet;
+    background-color: white;
 }
 
 .fas,
 .fa {
-    color: rgba(31, 72, 116, 1);
+    /**/
 }
+
+.fa-briefcase {
+    -webkit-text-stroke-color: #FFDE03;
+}
+
+
+h3 {
+    font-size: 1.2rem;
+}
+
 
 /* espace gauche */
 
 
 .col-12.col-md-3.espaceGauche {
-    background-color: rgba(31, 72, 116, 0.2);
+    background-color: #FFDE03;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    text-align: center;
     padding-top: 2vh;
 }
 
@@ -38,24 +46,17 @@
 }
 
 .gaucheTitre {
-    background-image: url("photo/wax4.jpeg");
-    line-height: 2.7rem;
-    font-size: 1.50rem;
+    background-color: black;
+    font-size: 1rem;
     color: #FFDE03;
-    font-weight: 700;
-    padding-bottom: 10px;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 4vh;
+    text-align: center;
+
 }
 
-h3 {
-    padding-top: 3%;
-    text-shadow: 2px 2px 2px black;
-}
 
-@media (min-width: 320px) and (max-width: 479px) {
-    h3 {
-        padding-top: 1%;
-    }
-}
 
 .contactText {
     display: flex;
@@ -64,21 +65,14 @@ h3 {
     padding-top: 30px;
 }
 
-.tel,
-.mail,
-.site,
-.link {
-    height: 3vh;
-    background-color: grey;
-    color: #f2f2f2;
-    width: 80%;
+.coordonnees {
+    color: black;
     margin-top: 2vh;
     margin-bottom: 1vh;
-    margin-left: 15%;
+    margin-left: 25px;
 }
 
-.site.mx-auto,
-.link.mx-auto {
+.site {
     cursor: pointer;
 }
 
@@ -93,8 +87,8 @@ h3 {
 
 .moi {
     margin-top: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 #loisirs {
@@ -115,7 +109,7 @@ h3 {
 }
 
 .loisir {
-    border: 3px solid rgba(31, 72, 116, 1);
+    border: 3px solid black;
     border-radius: 50%;
     padding: 12px;
 }
@@ -142,22 +136,30 @@ h3 {
 
 .intituleDeux {
     padding-top: 7vh;
-    color: #0336FF;
+    color: #FFDE03;
     font-weight: 400;
     font-size: 4rem;
 }
 
-.intitule>span {
-    color: #0336FF;
+.intituleDeux span {
+    color: black;
     font-size: 4rem;
     font-weight: 900;
 }
 
+
 .rdDeux {
-    color: rgba(31, 72, 116, 1);
     font-size: 2rem;
     font-weight: 900;
 }
+
+.ligne {
+    height: 3px;
+    width: 100px;
+    background-color: #FFDE03;
+    margin-top: -2vh;
+}
+
 
 #experience {
     margin-top: 100px;
@@ -166,7 +168,7 @@ h3 {
 
 .exp,
 .form {
-    color: #0336FF;
+    color: black;
     font-weight: 900;
 }
 
@@ -176,7 +178,7 @@ h3 {
     padding-top: 5px;
     height: 3px;
     width: 95%;
-    background-image: url(photo/wax4.jpeg);
+    background-color: #FFDE03;
 }
 
 #exp {
@@ -283,7 +285,7 @@ li>span {
     }
 
     .intituleUn {
-        color: #0336FF;
+        color: black;
         font-weight: 900;
         font-size: 2rem;
     }
@@ -347,12 +349,7 @@ li>span {
         width: 100%;
     }
 
-    .tel,
-    .mail,
-    .site {
-        font-size: 12px;
-        width: 100%;
-    }
+
 
     .link {
         padding-bottom: 20px;
