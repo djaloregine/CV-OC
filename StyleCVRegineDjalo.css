@@ -9,15 +9,40 @@
     background-color: white;
 }
 
-.fas,
-.fa {
-    /**/
+.fas {
+    color: black;
 }
 
-.fa-briefcase {
-    -webkit-text-stroke-color: #FFDE03;
+.loisirs {
+    color: black;
 }
 
+.fa-briefcase,
+.fa-graduation-cap {
+    -webkit-text-stroke-color: red;
+    color: #FFDE03;
+}
+
+.fa-2x {
+    font-size: 1rem !important;
+    color: #FFDE03;
+}
+
+.fa-1x {
+    font-size: 0.5rem !important;
+    color: #FFDE03;
+}
+
+.far {
+    display: inline-block;
+    color: #FFDE03;
+    position: relative;
+}
+
+.fa.fa-circle {
+    color: #FFDE03;
+    position: absolute;
+}
 
 h3 {
     font-size: 1.2rem;
@@ -27,7 +52,7 @@ h3 {
 /* espace gauche */
 
 
-.col-12.col-md-3.espaceGauche {
+.col-12.col-md-4.espaceGauche {
     background-color: #FFDE03;
     display: flex;
     flex-direction: column;
@@ -53,10 +78,7 @@ h3 {
     width: 100%;
     margin-top: 4vh;
     text-align: center;
-
 }
-
-
 
 .contactText {
     display: flex;
@@ -70,6 +92,11 @@ h3 {
     margin-top: 2vh;
     margin-bottom: 1vh;
     margin-left: 25px;
+}
+
+.site a,
+.mentions-contenu a {
+    color: black;
 }
 
 .site {
@@ -118,14 +145,14 @@ h3 {
     padding: 14px 8px 12px 8px;
 }
 
-.loisirRun {
-    padding: 12px 18px 12px 18px;
+.loisirCinema {
+    padding: 12px 13px 12px 13px;
 }
 
 
 /*espace droite */
 
-.col-12.col-md-9.espaceDroite {
+.col-12.col-md-8.espaceDroite {
     padding-left: 50px;
     padding-top: 100px;
 }
@@ -176,7 +203,7 @@ h3 {
 .ligneExp,
 .ligneForm {
     padding-top: 5px;
-    height: 3px;
+    height: 1px;
     width: 95%;
     background-color: #FFDE03;
 }
@@ -192,7 +219,8 @@ h3 {
 }
 
 #postes,
-#formations {
+#formations,
+#recommandation {
     margin-top: 50px;
     padding-left: 15px;
 }
@@ -203,8 +231,8 @@ h3 {
 }
 
 .poste {
-
     list-style: none;
+    margin-top: -5px;
 }
 
 .dates {
@@ -223,9 +251,9 @@ h3 {
 }
 
 li>span {
-    color: #1f4874;
     font-size: 1.25rem;
     font-weight: bold;
+    letter-spacing: -0.5px;
 }
 
 .activites {
@@ -245,7 +273,7 @@ li>span {
 
 .formation>li {
     list-style: none;
-
+    margin-top: -5px;
 }
 
 #form {
@@ -258,19 +286,21 @@ li>span {
     margin-top: 5px;
 }
 
+.recommandations {
+    margin-top: 30px;
+}
+
 .mentions {
     margin-top: 10vh;
     margin-bottom: 0;
 }
 
 .mentions-titre {
-    color: #1f4874;
     font-size: 0.75rem;
     font-weight: bold;
 }
 
 .mentions-contenu {
-    color: #1f4874;
     font-size: 0.5rem;
     font-weight: bold;
 }
@@ -364,12 +394,6 @@ li>span {
 
 @media (min-width: 768px) and (max-width: 1119px) {
 
-    .tel,
-    .mail,
-    .site {
-        font-size: 10px;
-        width: 100%;
-    }
 
     .mentions {
         margin-top: 200px;
