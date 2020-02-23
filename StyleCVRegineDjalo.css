@@ -1,5 +1,7 @@
 /* CVRegineDjalo */
 /* CV FFDE03 0336FF FF0266  #1f4874*/
+/* $jaune: #FFDE03; 
+$orange: #E54304; */
 
 #page {
     width: 100%;
@@ -8,6 +10,7 @@
     overflow: hidden;
     background-color: white;
 }
+
 
 .fas {
     color: black;
@@ -19,8 +22,7 @@
 
 .fa-briefcase,
 .fa-graduation-cap {
-    -webkit-text-stroke-color: red;
-    color: #FFDE03;
+    color: #E54304;
 }
 
 .fa-2x {
@@ -36,18 +38,33 @@
 .far {
     display: inline-block;
     color: #FFDE03;
-    position: relative;
+
 }
 
 .fa.fa-circle {
     color: #FFDE03;
-    position: absolute;
+}
+
+.fas.fa-circle.fa-1x.exp {
+    color: #FFDE03;
+    border: 1.5px #FFDE03 solid;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+.svg-inline--fa.fa-pencil-alt {
+    width: 35px;
+    color: #E54304;
 }
 
 h3 {
     font-size: 1.2rem;
 }
 
+.soustraire {
+    padding: 0px !important;
+}
 
 /* espace gauche */
 
@@ -67,17 +84,21 @@ h3 {
 
 .photo img {
     border-radius: 100%;
-    width: 100%;
+    width: 70%;
 }
 
 .gaucheTitre {
-    background-color: black;
+    background-color: #E54304;
     font-size: 1rem;
-    color: #FFDE03;
+    color: black;
     font-weight: 500;
     width: 100%;
     margin-top: 4vh;
     text-align: center;
+}
+
+.mg {
+    margin-bottom: 0px;
 }
 
 .contactText {
@@ -112,14 +133,14 @@ h3 {
     padding: 10px;
 }
 
-.moi {
+.col-12.mx-auto.moi {
     margin-top: 40px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #loisirs {
-    margin-top: 10vh;
+    margin-top: 87vh;
     margin-bottom: 0;
 }
 
@@ -129,7 +150,7 @@ h3 {
     margin-left: 5%;
     margin-right: -13%;
     display: grid;
-    grid-template-columns: repeat(4, 0.2fr);
+    grid-template-columns: repeat(3, 0.2fr);
     grid-auto-flow: row;
     gap: 20px;
 
@@ -183,10 +204,13 @@ h3 {
 .ligne {
     height: 3px;
     width: 100px;
-    background-color: #FFDE03;
+    background-color: #E54304;
     margin-top: -2vh;
 }
 
+.fa-scrubber {
+    width: 15px;
+}
 
 #experience {
     margin-top: 100px;
@@ -205,7 +229,7 @@ h3 {
     padding-top: 5px;
     height: 1px;
     width: 95%;
-    background-color: #FFDE03;
+    background-color: #E54304;
 }
 
 #exp {
@@ -222,7 +246,7 @@ h3 {
 #formations,
 #recommandation {
     margin-top: 50px;
-    padding-left: 15px;
+
 }
 
 .posteUn,
@@ -233,21 +257,6 @@ h3 {
 .poste {
     list-style: none;
     margin-top: -5px;
-}
-
-.dates {
-    background-color: #FFDE03;
-    border: 1px solid transparent;
-    width: 50px;
-    height: 50px;
-    padding: 5px;
-    border-radius: 50%;
-    font-size: 0.8rem;
-    font-weight: bold;
-}
-
-.datesText {
-    text-align: center;
 }
 
 li>span {
@@ -312,22 +321,20 @@ li>span {
     #headerUn {
         visibility: visible;
         text-align: center;
+        margin-top: 3vh;
     }
 
     .intituleUn {
-        color: black;
         font-weight: 900;
         font-size: 2rem;
     }
 
     .intitule>span {
-        color: #0336FF;
         font-size: 2rem;
         font-weight: 900;
     }
 
     .rdUn {
-        color: rgba(31, 72, 116, 1);
         font-size: 1rem;
         font-weight: 900;
     }
@@ -344,9 +351,18 @@ li>span {
         margin-top: -170px;
     }
 
-    .col-12.col-md-9.espaceDroite {
+    .col-12.mx-auto.moi {
+        padding-left: 35px;
+        padding-right: 25px;
+    }
+
+    #loisirs {
+        margin-top: 10%;
+    }
+
+    .col-12.col-md-8.espaceDroite {
         padding-left: 0px;
-        padding-top: 20px;
+        margin-top: -100px;
     }
 
     .exp,
@@ -392,8 +408,42 @@ li>span {
 
 }
 
-@media (min-width: 768px) and (max-width: 1119px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 
+    .intituleDeux {
+        font-size: 2.5rem;
+    }
+
+    .intituleDeux span {
+        font-size: 2.5rem;
+    }
+
+    .rdDeux {
+        font-size: 1.5rem;
+    }
+
+    .col-12.mx-auto.moi {
+        padding-left: 35px;
+        padding-right: 25px;
+    }
+
+    .col-12.col-12.col-md-8.espaceDroite {
+        padding-left: 3px;
+    }
+
+    .espaceDroite--title {
+        margin-top: -30px;
+    }
+
+    .exp,
+    .form {
+        font-size: 1.4rem;
+        margin-top: 10px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1119px) {
 
     .mentions {
         margin-top: 200px;

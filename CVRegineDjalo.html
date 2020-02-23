@@ -16,8 +16,8 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Régine DJALO </title>
+
+    <title> Régine DJALO CV 2020 </title>
 </head>
 
 <body>
@@ -25,9 +25,9 @@
         <div class="row">
 
 
-            <div class="col-12 col-md-4 espaceGauche ">
+            <div class="col-12 col-md-4 espaceGauche soustraire">
 
-                <div class="container fluid">
+                <div class="container fluid soustraire">
 
                     <div class="row" id="headerUn">
                         <div class="col-offset-2 col-10 mx-auto">
@@ -38,14 +38,14 @@
 
 
                     <div class="row">
-                        <div class="col-12 mx-auto photo">
+                        <div class="col-12 photo mx-auto text-center">
                             <img src="photo/RegineDjalo2019.jpg" alt="photo de Régine Djalo">
                         </div>
                     </div>
 
                     <div class="row no-gutters">
-                        <div class="p-15 col-12 mx-auto gaucheTitre">
-                            <h4> CONTACT </h4>
+                        <div class="col-12 mx-auto gaucheTitre">
+                            <h4 class="mg"> CONTACT </h4>
                         </div>
                     </div>
                     <div class="row no-gutters" id="contact">
@@ -97,12 +97,12 @@
                         </div>
                     </div>
 
-                    <div class="gaucheTitre">
+                    <div id="loisirs" class="gaucheTitre">
                         <h4> LOISIRS </h4>
                     </div>
 
-                    <div class="row" id="loisirs">
-                        <div class="col-12 mx-auto">
+                    <div class="row">
+                        <div class="col-12 mx-auto text-center">
                             <i class="fas fa-book-open fa-3x loisir"></i>
                             <i class="fas fa-swimmer fa-3x loisir loisirSwim"></i>
                             <i class="fas fa-film fa-3x loisir loisirCinema"></i>
@@ -140,9 +140,11 @@
 
                         <div id="postes">
                             <div class="row posteUn">
+
                                 <div class="col-xs-6 col-sm-2 col-lg-1">
-                                    <i class="far fa-circle fa-2x"> <i class="fas fa-circle fa-1x"> </i> </i>
+                                    <i class="fas fa-circle fa-1x exp"> </i>
                                 </div>
+
                                 <div class="col-xs-6 col-sm-2 col-lg-2">
                                     <p> 2017 à aujourd'hui </p>
                                 </div>
@@ -164,6 +166,7 @@
                                     </ul>
                                 </div>
                             </div>
+
 
                             <div class="row posteUn">
                                 <div class="col-xs-6 col-sm-2 col-lg-1">
@@ -222,9 +225,6 @@
                         </div>
                     </div>
 
-
-
-
                     <div id="formation">
 
                         <div class="row espaceDroite--title">
@@ -239,7 +239,7 @@
                         <div id="formations">
                             <div class="row formationUn">
                                 <div class="col-xs-6 col-sm-2 col-lg-1">
-                                    <i class="fas fa-circle fa-1x"> </i>
+                                    <i class="fas fa-circle fa-1x exp"> </i>
                                 </div>
                                 <div class="col-xs-6 col-sm-2 col-lg-2">
                                     <p> 2003-2004 </p>
@@ -295,7 +295,15 @@
                     <div id="recommandation">
 
                         <div class="row espaceDroite--title">
-                            <i class="col-12 col-sm-2 far fa-pencil-alt fa-3x" aria-hidden="true"></i>
+                            <!-- <i class="col-12 col-sm-2 far fa-pencil-alt fa-3x" aria-hidden="true"></i> -->
+                            <div class="col-12 col-sm-2 "> <svg aria-hidden="true" focusable="false" data-prefix="fal"
+                                    data-icon="pencil-alt" role="img" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512" class="svg-inline--fa fa-pencil-alt fa-w-16">
+                                    <path fill="currentColor"
+                                        d="M493.255 56.236l-37.49-37.49c-24.993-24.993-65.515-24.994-90.51 0L12.838 371.162.151 485.346c-1.698 15.286 11.22 28.203 26.504 26.504l114.184-12.687 352.417-352.417c24.992-24.994 24.992-65.517-.001-90.51zM164.686 347.313c6.249 6.249 16.379 6.248 22.627 0L368 166.627l30.059 30.059L174 420.745V386h-48v-48H91.255l224.059-224.059L345.373 144 164.686 324.687c-6.249 6.248-6.249 16.378 0 22.626zm-38.539 121.285l-58.995 6.555-30.305-30.305 6.555-58.995L63.255 366H98v48h48v34.745l-19.853 19.853zm344.48-344.48l-49.941 49.941-82.745-82.745 49.941-49.941c12.505-12.505 32.748-12.507 45.255 0l37.49 37.49c12.506 12.506 12.507 32.747 0 45.255z"
+                                        class=""></path>
+                                </svg>
+                            </div>
                             <h2 class="col-12 col-sm-10 form"> RECOMMANDATIONS </h2>
                         </div>
                         <div class="ligneForm"> </div>
@@ -326,25 +334,26 @@
                             </div>
                         </div>
 
-
-
-
-                        <footer class="mentions">
-                            <p class="mentions-titre"> Réalisation du site </p>
-                            <p class="mentions-contenu"> Ce site a été réalisé et mis à jour par Régine Djalo. Il
-                                n'utilise
-                                pas de cookies.</p>
-                            <p class="mentions-contenu"><a href="mailto:djalo50@gmail.com">Envoyez-moi un e-mail si vous
-                                    souhaitez utiliser mes
-                                    services!</a></p>
-                        </footer>
-
                     </div>
+
+
+                    <footer class="mentions">
+                        <p class="mentions-titre"> Réalisation du site </p>
+                        <p class="mentions-contenu"> Ce site a été réalisé et mis à jour par Régine Djalo. Il
+                            n'utilise
+                            pas de cookies.</p>
+                        <p class="mentions-contenu"><a href="mailto:djalo50@gmail.com">Envoyez-moi un e-mail si
+                                vous
+                                souhaitez utiliser mes
+                                services!</a></p>
+                    </footer>
+
 
                 </div>
             </div>
-
         </div>
+
+    </div>
 
 
 </body>
